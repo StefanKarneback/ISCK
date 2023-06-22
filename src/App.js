@@ -8,9 +8,11 @@ import {
 import LandingScreen from "./screens/LandingScreen2";
 import FirelessCooker from "./screens/FirelessCooker";
 import SolarCookerScreen from "./screens/SolarCooker";
+import TypeofCookers from "./screens/TypeofCookers";
 import React from "react";
 import ProductsScreen from "./screens/Products";
-import ContactScreen from "./screens/ContactScreen";
+import Contact from "./screens/Contact";
+import WhereToBuy from "./screens/WhereToBuy";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import FuelSavingStove from "./screens/FuelSavingStove";
@@ -44,12 +46,16 @@ function App() {
               element={<FuelSavingStove isOpen={isOpen} />}
             />
             <Route
-              path="/Products"
-              element={<ProductsScreen isOpen={isOpen} />}
+              path="/TypeofCookers"
+              element={<TypeofCookers isOpen={isOpen} />}
+            />
+            <Route
+              path="/WhereToBuy"
+              element={<WhereToBuy isOpen={isOpen} />}
             />
             <Route
               path="/Contact"
-              element={<ContactScreen isOpen={isOpen} />}
+              element={<Contact isOpen={isOpen} />}
             />
             <Route
               path="/AdditionalInfo"
