@@ -1,3 +1,2 @@
 # ISCK
-ISC Kenya trying with clone from Nicole
-Edited locally, works on localhost
+ISC Kenya trying with push from local.
