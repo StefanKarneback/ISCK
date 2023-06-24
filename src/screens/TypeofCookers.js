@@ -1,5 +1,6 @@
-
-import Stack from "react-bootstrap/Stack";
+import "../App.css";
+import GlobalStyle, { ContainerCol } from "../GlobalStyles";
+import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import p1 from "../images/q1.png";
@@ -9,28 +10,48 @@ import p4 from "../images/q4.png";
 import p5 from "../images/q5.png";
 import p6 from "../images/q6.png";
 import p7 from "../images/q7.png";
-
-function Types() {
+//import SlidingImage from "../components/SlidingImage";;
+//import Types from "../components/Types";
+import SidebarMenu from "../components/SidebarMenu";
+//import Types from "../components/Types";
+function TypeofCookers(props) {
   return (
-    <div
-      style={{
-        marginTop: "3em",
-        marginBottom: "3em",
-        paddingLeft: "100px",
-        paddingRight: "100px",
-      }}
-    >
-      <h1 id="TypeofSolarCooker">Type of Solar Cooker</h1>
-      <div style={{ marginBottom: "1em" }}>
-        There are different types of solar cookers. Complexity and prices vary a
-        lot. The principles are explained below and if you want to learn more,
-        have a look at the
+    <>
+      <GlobalStyle />
+      {props.isOpen ? <SidebarMenu /> : <></>}
+
+      <ContainerCol className="landingDiv">
+        <div
+          className={"LandingBackgroundTypeofCookers"}
+          style={{ width: "100%", height: "25em" }}
+        ></div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <div className="SlidingText">
+		    <div
+		      style={{
+			marginTop: "3em",
+			marginBottom: "3em",
+			paddingLeft: "100px",
+			paddingRight: "100px",
+		      }}
+		    >
+              <h2 id="TypeofCookers">Type of Cookers</h2>
+              <div style={{ marginBottom: "1em" }}>
+             There are different types of solar cookers. Complexity and prices vary a
+             lot. The principles are explained below and if you want to learn more,
+             h 	ave a look at the
         <a
           href="https://solarcooking.fandom.com/wiki/Introduction_to_solar_cooking"
           target="_blank"
-        >
-          {" "}
-          Wiki page
+         >
+           {" "}
+         Wiki page
         </a>{" "}
         of Solar Cookers International.
       </div>
@@ -47,7 +68,8 @@ function Types() {
                 <br />
               </text>
               <br />
-              <Row>
+  
+            <Row>
                 <Col>
                   <text style={{ fontWeight: "bold" }}>Advantage</text>
                   <ul>
@@ -122,6 +144,7 @@ function Types() {
             </div>
           </Col>
         </Row>
+
         <br />
 
         <Row>
@@ -230,9 +253,10 @@ function Types() {
             </div>
           </Col>
         </Row>
+
         <br />
 
-        <Row>
+      <Row>
           <Col>
             <div>
               <h3 id="Fresnel Lens Cookers">Fresnel Lens Cookers</h3>
@@ -275,6 +299,7 @@ function Types() {
             </div>
           </Col>
         </Row>
+
         <br />
 
         <Row>
@@ -308,9 +333,14 @@ function Types() {
           </Col>
           <Col></Col>
         </Row>
-      </div>
-    </div>
+
+       </div> 
+      </div>    
+     </div>
+     </div>
+      </ContainerCol>
+    </>
   );
 }
 
-export default Types;
+export default TypeofCookers

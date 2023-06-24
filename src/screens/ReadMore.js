@@ -53,27 +53,9 @@ function AdditionalInfo(props) {
                   A US located organisation promoting solar cookers in three
                   ways, advocacy, building capacity and research.{" "}
                 </div>{" "}
-                <div style={{ marginBottom: "1em" }}>
-                  <h5>
-                    ISC Kenya Map{" "}
-                    <a href="https://umap.openstreetmap.fr/sv/map/vendors-of-integrated-solar-cooking-kenya_873172">
-                      <FaExternalLinkAlt />
-                    </a>{" "}
-                  </h5>
-                  Map showing location of solar cooking vendors. Click on the
-                  symbol close to your place and you will get more information.{" "}
-                  <div style={{ textAlign: "center" }}>
-                    <object
-                      type="text/html"
-                      data="https://umap.openstreetmap.fr/sv/map/vendors-of-integrated-solar-cooking-kenya_873172"
-                      width="1000px"
-                      height="600px"
-                    ></object>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+	</div>
+	</div>
+	</div>
         </div>
       </ContainerCol>
     </>

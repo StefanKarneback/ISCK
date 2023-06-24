@@ -8,15 +8,15 @@ import Prod2 from "../images/prod2.jpeg";
 import Prod3 from "../images/q2.png";
 import SidebarMenu from "../components/SidebarMenu";
 import GlobalStyle from "../GlobalStyles";
-import { FaExternalLinkAlt } from "react-icons/fa";
+//import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ProductsScreen(props) {
   function PrintImage(props) {
-    if (props.name == 0) {
+    if (props.name === 0) {
       return <Card.Img variant="top" src={Prod1} />;
-    } else if (props.name == 1) {
+    } else if (props.name === 1) {
       return <Card.Img variant="top" src={Prod2} />;
-    } else if (props.name == 2) {
+    } else if (props.name === 2) {
       return <Card.Img variant="top" src={Prod3} />;
     }
   }

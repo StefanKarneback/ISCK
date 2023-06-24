@@ -2,7 +2,7 @@ import { ContainerCol } from "../GlobalStyles";
 import GlobalStyle from "../GlobalStyles";
 import SidebarMenu from "../components/SidebarMenu";
 
-function ContactScreen(props) {
+function Contact(props) {
   return (
     <>
       <GlobalStyle />
@@ -27,7 +27,8 @@ function ContactScreen(props) {
             >
               <h2>Contacts</h2>
               <div style={{ marginBottom: "1em" }}>
-                Contact persons and additional links
+                Contact persons and additional links will be listed here < br/>
+			... more to come ...
               </div>
             </div>
           </div>
@@ -37,4 +38,4 @@ function ContactScreen(props) {
   );
 }
 
-export default ContactScreen;
+export default Contact;

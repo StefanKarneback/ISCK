@@ -46,9 +46,9 @@ function FuelSavingStove(props) {
                 is often a first step to reduce your fuel cost and the first
                 unit in your Integrated Solar Kitchen. <br /> Watch this{" "}
                 <a href="https://www.youtube.com/watch?v=r66jjYdBmg8">
-                  link
+		VIDEO			
                 </a>{" "}
-                on how you can produce A simple Rocket Stove that saves fuel.
+                from Youtube on how you can produce a simple Rocket Stove that saves fuel.
               </div>
             </div>
           </div>
