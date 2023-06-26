@@ -1,6 +1,6 @@
 {
   "homepage": "http://stefankarneback.github.io/ISCK",
-  "name": "integratedsolarcooking",
+  "name": "ISCK",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
