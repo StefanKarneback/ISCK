@@ -11,7 +11,7 @@ function HowToUse() {
       >
         <div style={{ textAlign: "start" }}>
           <ol>
-            <li>Place the cooker in a sunny spot with no shade.</li>
+            <li>Place the COOKER in a sunny spot with no shade.</li>
             <li>
               Aline the cooker with the sun. Look at the shadow. Adjust
               alignment by rotating the cooker every hour.

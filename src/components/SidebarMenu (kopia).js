@@ -9,6 +9,7 @@ import { useState } from "react";
 export default function SidebarMenu() {
   const navigate = useNavigate();
   const [SolarCookerOpen, setSolarCookerOpen] = useState(false);
+
   return (
     <div style={{ paddingTop: "50px" }}>
       <ContainerCol
@@ -86,33 +87,28 @@ export default function SidebarMenu() {
               Types of Solar Cookers
             </div>
       </ContainerCol>
-
-
       <ContainerCol className="sidebardiv">
-        <div 
-	className="sidebartitle"   
-	onClick={() => navigate("/WhereToBuy")}
-	>
- 	Map of ISC Venors
-      </div>
-	</ContainerCol>
-        <ContainerCol className="sidebardiv">
-	<div
-	className="sidebartitle"
+<div
+              className="subsidebartitle"
+              onClick={() => (window.location.href = "/Products#VendorMap")}
+
+        >
+              {" "}
+              Map of ISC Vendors in Kenya
+            </div>
+            <div
+              className="subsidebartitle"
               onClick={() => navigate("/Vendors")}
             >
-              {" "}
-              List of Vendors in Kenya
-            </div>
-	</ContainerCol>
-
-	<ContainerCol className="sidebardiv">
-        <div className="sidebartitle" 
-	onClick={() => navigate("/Contact")}>
+            {" "}
+            List of Vendors in Kenya:  
+          </div>
+       </ContainerCol>
+      <ContainerCol className="sidebardiv">
+        <div className="sidebartitle" onClick={() => navigate("/Contact")}>
           Contact
         </div>
       </ContainerCol>
-
       <ContainerCol className="sidebardiv">
         <div
           className="sidebartitle"
@@ -121,9 +117,6 @@ export default function SidebarMenu() {
           Read More
         </div>
       </ContainerCol>
-
-
-
     </div>
   );
 }

@@ -1,14 +1,11 @@
 import "../App.css";
-import "./SolarCooker.css";
 import GlobalStyle, { ContainerCol } from "../GlobalStyles";
 import React from "react";
-import SlidingImage from "../components/SlidingImage";
-import HowToCook from "../components/HowToCook";
-import HowToUse from "../components/HowToUse";
+import SlidingImage from "../components/SlidingImage";;
 import Types from "../components/Types";
 import SidebarMenu from "../components/SidebarMenu";
 
-function SolarCookerScreen(props) {
+function TypeofCookers(props) {
   return (
     <>
       <GlobalStyle />
@@ -24,10 +21,7 @@ function SolarCookerScreen(props) {
           }}
         >
           <div className="SlidingText">
-            <HowToCook />
-            <hr class="mt-2 mb-3" />
-            <HowToUse />
-            <hr class="mt-2 mb-3" />
+            <Types />
           </div>
         </div>
       </ContainerCol>
@@ -35,4 +29,4 @@ function SolarCookerScreen(props) {
   );
 }
 
-export default SolarCookerScreen;
+export default TypeofCookers;
