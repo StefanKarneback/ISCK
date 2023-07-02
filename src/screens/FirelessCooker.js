@@ -32,7 +32,7 @@ function Fireless(props) {
                 paddingRight: "100px",
               }}
             >
-              <h2 id="FirelessCooker HEEEEJ">Fireless Cooker</h2>
+              <h2 id="FirelessCooker">Fireless Cooker</h2>
               <div style={{ marginBottom: "1em" }}>
                 A fireless cooker, e.g. a well insulated basket which will keep
                 the food hot, is necessary. If the food is well at boiling
