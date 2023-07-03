@@ -43,7 +43,7 @@ function Fireless(props) {
                 your solar cooker during daytime. <br />
                 Watch this{" "}
                 <a href="https://drive.google.com/drive/u/2/folders/1qREHSgUhwrSkZqJkQNaCpEsL_gQ9Klfk">
-                  LINK
+                  link
                 </a>{" "}
                 on how you can produce your own fireless cooker that saves fuel!
               </div>
