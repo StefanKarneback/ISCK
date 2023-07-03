@@ -51,7 +51,7 @@ function LandingScreen() {
           <br />
           <b>
             If you sell equipment for integrated solar cooking and want your
-            products to be seen on this web site send an e-mail to  stefan.karneback@ewb-swe.org
+            products to be seen on this web site send an e-mail to stefan.karneback@ewb-swe.org
           </b>
         </div>
       </ContainerCol>
