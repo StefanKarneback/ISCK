@@ -46,6 +46,7 @@ function LandingScreen(props) {
         <div style={{ display: "flex", justifyContent: "space-evenly" }}></div>
         <div className="Introtext">
           <h1>Integrated Solar Cooking in Kenya</h1>
+          (This web site is under construction and is not official yet.) <br />
           Integrated solar cooking (ISC) can improve both health and economy for
           families that use firewood, charcoal, kerosene or gas for cooking. A
           transition to ISC will reduce deforestation and also reduce carbon
