@@ -21,10 +21,7 @@ function TypeofCookers(props) {
       {props.isOpen ? <SidebarMenu /> : <></>}
 
       <ContainerCol className="landingDiv">
-        <div
-          className={"LandingBackgroundTypeofCookers"}
-          style={{ width: "100%", height: "25em" }}
-        ></div>
+
         <div
           style={{
             display: "flex",
