@@ -14,6 +14,7 @@ function LandingScreen() {
           <h1 className={"LadningTitle"}>Integrated Solar Cooking</h1>
         </div>
         <div style={{ marginTop: "2em", fontSize: "24px" }}>
+          (Ths web site is under construction and not yet official.) <br />
           Integrated solar cooking (ISC) can improve both health and economy for
           families that use firewood, charcoal, kerosene or gas for cooking. A
           transition to ISC will reduce deforestation and also reduce carbon
