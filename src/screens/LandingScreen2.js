@@ -21,6 +21,13 @@ function LandingScreen(props) {
           }}
         >
           <div
+            className={"LandingBackground"}
+            style={{ width: "33.33%", height: "100%" }}
+            onClick={() => navigate("/SolarCooker")}
+          >
+            <h1 className="h1Font">Solar Cooker</h1>
+          </div>
+	  <div
             className={"LandingBackgroundFireless"}
             style={{ width: "33.33%", height: "100%" }}
             onClick={() => navigate("/FirelessCooker")}
@@ -35,13 +42,7 @@ function LandingScreen(props) {
           >
             <h1 className="h1Font">Fuel Saving Stove</h1>
           </div>
-          <div
-            className={"LandingBackground"}
-            style={{ width: "33.33%", height: "100%" }}
-            onClick={() => navigate("/SolarCooker")}
-          >
-            <h1 className="h1Font">Solar Cooker</h1>
-          </div>
+
         </div>
         <div style={{ display: "flex", justifyContent: "space-evenly" }}></div>
         <div className="Introtext">
