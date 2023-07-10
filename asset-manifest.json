@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ISCK/static/css/main.5264be01.css",
-    "main.js": "/ISCK/static/js/main.e4c8c400.js",
+    "main.js": "/ISCK/static/js/main.177fd2c6.js",
     "static/js/787.9a22457f.chunk.js": "/ISCK/static/js/787.9a22457f.chunk.js",
     "static/media/SolarCooker.JPG": "/ISCK/static/media/SolarCooker.ddd972b9ae1e54081b22.JPG",
     "static/media/q7.png": "/ISCK/static/media/q7.9cad55aea826d1e8e4dd.png",
@@ -21,13 +21,15 @@
     "static/media/step2.png": "/ISCK/static/media/step2.1c9ddee5f3ba94356ef3.png",
     "static/media/q2.png": "/ISCK/static/media/q2.9aa414f71ec4e2739629.png",
     "static/media/step1.png": "/ISCK/static/media/step1.571cb16576ad6507cc35.png",
+    "static/media/VUH_logo.png": "/ISCK/static/media/VUH_logo.2d8daa0efa934f4f21c6.png",
+    "static/media/ewb_logo_green_RGB.png": "/ISCK/static/media/ewb_logo_green_RGB.40d246d94f8d083d326c.png",
     "index.html": "/ISCK/index.html",
     "main.5264be01.css.map": "/ISCK/static/css/main.5264be01.css.map",
-    "main.e4c8c400.js.map": "/ISCK/static/js/main.e4c8c400.js.map",
+    "main.177fd2c6.js.map": "/ISCK/static/js/main.177fd2c6.js.map",
     "787.9a22457f.chunk.js.map": "/ISCK/static/js/787.9a22457f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5264be01.css",
-    "static/js/main.e4c8c400.js"
+    "static/js/main.177fd2c6.js"
   ]
 }
