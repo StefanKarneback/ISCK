@@ -71,6 +71,25 @@ function LandingScreen(props) {
             If you sell equipment for integrated solar cooking and want your
             products to be seen on this web site send an e-mail to  stefan.karneback@ewb-swe.org.
           </b>
+              _________________________________________________________________________
+<br />This web page was constructed in a Solar Cooking Project by EWB Sweden  
+	 with support from 
+<br />Volvoanställdas Utvecklingshjälp.
+<br />       
+               <img
+                src={EWB_logo}
+                alt="logo"
+                style={{height: "4em", paddngTop: "6em" }}
+ 		/>{"             "}
+		{"             "}
+		{"             "}
+		 <img
+                  src={VUH_logo}
+                  alt="logo"
+                  style={{ height: "5em", paddingTop: "0em" }}
+                />{" "} <br />
+               
+</div>{" "}
         </div>{" "}
       </ContainerCol>
     </>
