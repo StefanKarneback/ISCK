@@ -4,7 +4,8 @@ import GlobalStyle from "../GlobalStyles";
 import { useNavigate } from "react-router";
 import SidebarMenu from "../components/SidebarMenu";
 import { ContainerCol } from "../GlobalStyles";
-
+import VUH_logo from "../images/VUH_logo.png";
+import ewb_logo from "../images/ewb_logo_green_RGB.png";
 function LandingScreen(props) {
   const navigate = useNavigate();
 
