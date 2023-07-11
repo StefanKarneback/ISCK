@@ -91,7 +91,6 @@ function LandingScreen(props) {
                   style={{ height: "5em", paddingTop: "0em" }}
                 />{" "} <br />
                
-</div>{" "}
         </div>{" "}
       </ContainerCol>
     </>
