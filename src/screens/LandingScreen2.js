@@ -55,7 +55,7 @@ function LandingScreen(props) {
           following information:
           <ul className="IntrotextList">
             <li>Instruction of how the cookers work and how they are used.</li>
-            <li>How to combine the cookers when lack of sunlights.</li>
+            <li>How to combine the cookers when lack of sunlight.</li>
             <li>Where to buy the equipment.</li>
             <li>How to build your own equipment.</li>
           </ul>
