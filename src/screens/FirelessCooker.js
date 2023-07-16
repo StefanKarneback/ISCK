@@ -42,8 +42,8 @@ function Fireless(props) {
                 useful to keep food warm until the evening when you have used
                 your solar cooker during daytime. <br />
                 Watch this{" "}
-                <a href="https://drive.google.com/drive/u/2/folders/1qREHSgUhwrSkZqJkQNaCpEsL_gQ9Klfk">
-                  link
+                <a href="https://drive.google.com/file/d/1ZwOEtHqQ3Veb6Twx9f_yvw_anxslkjiS/view">
+                  LINK
                 </a>{" "}
                 on how you can produce your own fireless cooker that saves fuel!
               </div>
