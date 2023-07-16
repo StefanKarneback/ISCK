@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/ISCK/static/css/main.5264be01.css",
-    "main.js": "/ISCK/static/js/main.9487c3a5.js",
+    "main.js": "/ISCK/static/js/main.918f6d70.js",
     "static/js/787.9a22457f.chunk.js": "/ISCK/static/js/787.9a22457f.chunk.js",
     "static/media/SolarCooker.JPG": "/ISCK/static/media/SolarCooker.ddd972b9ae1e54081b22.JPG",
     "static/media/q7.png": "/ISCK/static/media/q7.9cad55aea826d1e8e4dd.png",
+    "static/media/Sarah_on_field1.jpeg": "/ISCK/static/media/Sarah_on_field1.c192ee9d786cdee53969.jpeg",
     "static/media/q1.png": "/ISCK/static/media/q1.648afd7026296f0b5850.png",
     "static/media/prod1.png": "/ISCK/static/media/prod1.692fe2d126e9f18a223a.png",
     "static/media/q5.png": "/ISCK/static/media/q5.a7ca091b6e17b146978e.png",
@@ -13,6 +14,7 @@
     "static/media/b.jpg": "/ISCK/static/media/b.435fbc655f56b8f9d67a.jpg",
     "static/media/q4.png": "/ISCK/static/media/q4.d228512aad240837e5ff.png",
     "static/media/solarslide3.jpg": "/ISCK/static/media/solarslide3.353a63a30fe9544129e5.jpg",
+    "static/media/Sarah_portrait1.jpeg": "/ISCK/static/media/Sarah_portrait1.6e0df209f1c8ea3102b5.jpeg",
     "static/media/q6.png": "/ISCK/static/media/q6.b1159200db1fee36c7bb.png",
     "static/media/step3.png": "/ISCK/static/media/step3.02a270e5b8357df37d02.png",
     "static/media/FirelessCooker.jpg": "/ISCK/static/media/FirelessCooker.92db556c6396f476a67a.jpg",
@@ -25,11 +27,11 @@
     "static/media/ewb_logo_green_RGB.png": "/ISCK/static/media/ewb_logo_green_RGB.40d246d94f8d083d326c.png",
     "index.html": "/ISCK/index.html",
     "main.5264be01.css.map": "/ISCK/static/css/main.5264be01.css.map",
-    "main.9487c3a5.js.map": "/ISCK/static/js/main.9487c3a5.js.map",
+    "main.918f6d70.js.map": "/ISCK/static/js/main.918f6d70.js.map",
     "787.9a22457f.chunk.js.map": "/ISCK/static/js/787.9a22457f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5264be01.css",
-    "static/js/main.9487c3a5.js"
+    "static/js/main.918f6d70.js"
   ]
 }
