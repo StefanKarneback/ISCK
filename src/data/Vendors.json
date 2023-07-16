@@ -36,5 +36,24 @@
     "Address": [""],
     "Location": "Mombasa",
     "MoreInfo": "PV-driven induction ovens."
+},
+  {
+    "Entrepreneur": "Mary Mumbi and Nicholas Kitembe",
+    "Organisation": "Tonembee",
+    "Enterprise": "",
+    "PhoneNo": "",
+    "Address": [""],
+    "Location": "Kithuia, Machakos",
+    "MoreInfo": "Selling panel cookers, like Haines cooker and fireless cookers."
+  },
+{
+    "Entrepreneur": "Robert Nguma",
+    "Organisation": "",
+    "Enterprise": "Athel Technology",
+    "PhoneNo": "",
+    "Address": [""],
+    "Location": "Mombasa",
+    "MoreInfo": "PV-driven induction ovens."
 }
+
 ]
