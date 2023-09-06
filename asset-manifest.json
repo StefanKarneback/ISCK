@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ISCK/static/css/main.5264be01.css",
-    "main.js": "/ISCK/static/js/main.a2edc003.js",
+    "main.js": "/ISCK/static/js/main.2903b488.js",
     "static/js/787.9a22457f.chunk.js": "/ISCK/static/js/787.9a22457f.chunk.js",
     "static/media/SolarCooker.JPG": "/ISCK/static/media/SolarCooker.ddd972b9ae1e54081b22.JPG",
     "static/media/q7.png": "/ISCK/static/media/q7.9cad55aea826d1e8e4dd.png",
@@ -18,7 +18,6 @@
     "static/media/q6.png": "/ISCK/static/media/q6.b1159200db1fee36c7bb.png",
     "static/media/step3.png": "/ISCK/static/media/step3.02a270e5b8357df37d02.png",
     "static/media/FirelessCooker.jpg": "/ISCK/static/media/FirelessCooker.92db556c6396f476a67a.jpg",
-    "static/media/prod2.jpeg": "/ISCK/static/media/prod2.ad183177590c40031dcd.jpeg",
     "static/media/solarslide2.jpg": "/ISCK/static/media/solarslide2.17ddc4368961ad2e9d13.jpg",
     "static/media/step2.png": "/ISCK/static/media/step2.1c9ddee5f3ba94356ef3.png",
     "static/media/q2.png": "/ISCK/static/media/q2.9aa414f71ec4e2739629.png",
@@ -27,11 +26,11 @@
     "static/media/ewb_logo_green_RGB.png": "/ISCK/static/media/ewb_logo_green_RGB.40d246d94f8d083d326c.png",
     "index.html": "/ISCK/index.html",
     "main.5264be01.css.map": "/ISCK/static/css/main.5264be01.css.map",
-    "main.a2edc003.js.map": "/ISCK/static/js/main.a2edc003.js.map",
+    "main.2903b488.js.map": "/ISCK/static/js/main.2903b488.js.map",
     "787.9a22457f.chunk.js.map": "/ISCK/static/js/787.9a22457f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5264be01.css",
-    "static/js/main.a2edc003.js"
+    "static/js/main.2903b488.js"
   ]
 }
