@@ -10,15 +10,16 @@ import FirelessCooker from "./screens/FirelessCooker";
 import SolarCookerScreen from "./screens/SolarCooker";
 import TypeofCookers from "./screens/TypeofCookers";
 import React from "react";
-import ProductsScreen from "./screens/Products";
-import Contact from "./screens/Contact";
+//import ProductsScreen from "./screens/Products";
+//import Contact from "./screens/Contact";
 import WhereToBuy from "./screens/WhereToBuy";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import FuelSavingStove from "./screens/FuelSavingStove";
 import AdditionalInfo from "./screens/ReadMore";
 import VendorTable from "./components/VendorsTable";
-
+import MeetUsers from "./screens/MeetUsers";
+import Economy from "./screens/Economy";
 function App() {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -30,7 +31,7 @@ function App() {
         <Router>
           <Routes>
             <Route
-              path="/Integratedsolarcooking"
+              path="/ISCK"
               element={<LandingScreen isOpen={isOpen} />}
             />
             <Route
@@ -53,9 +54,13 @@ function App() {
               path="/WhereToBuy"
               element={<WhereToBuy isOpen={isOpen} />}
             />
+           <Route
+              path="/Economy"
+              element={<Economy isOpen={isOpen} />}
+            />
             <Route
-              path="/Contact"
-              element={<Contact isOpen={isOpen} />}
+              path="/MeetUsers"
+              element={<MeetUsers isOpen={isOpen} />}
             />
             <Route
               path="/AdditionalInfo"

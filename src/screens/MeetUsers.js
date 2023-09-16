@@ -109,7 +109,7 @@ Only chapati is not possible to cook in my panel cooker. The cooker also saves m
         </div>
 I have two cookers that I can bring to the fields.  It is easier and faster to use two cookers. I heat up water when my food is done to use for washing up. 
 <br />
-I also have a box cooker and a fireless cooker. The box cooker is heavier, but that is good when there it is windy. The fireless cooker keeps the dish hot until we eat.
+I also have a box cooker and a fireless cooker. The box cooker is heavier, but that is good when it is windy. The fireless cooker keeps the dish hot until we eat.
 
 
  	<div style={{ display: "flex", justifyContent: "center" }}>

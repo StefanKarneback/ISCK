@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import "./SidebarMenu.css";
 import { useState } from "react";
 
-
 export default function SidebarMenu() {
   const navigate = useNavigate();
   const [SolarCookerOpen, setSolarCookerOpen] = useState(false);
@@ -13,42 +12,25 @@ export default function SidebarMenu() {
     <div style={{ paddingTop: "50px" }}>
       <ContainerCol
         className="LogoTitle"
-        onClick={() => navigate("/Integratedsolarcooking")}
+        onClick={() => navigate("/ISCK")}
       >
         {/* <img src={ewblogo} alt="Logo" style={{ height: "2.5em" }} /> */}
         <p style={{ fontSize: "24px", color: "#38ba7d" }}>
           Integrated Solar Cooking
         </p>
       </ContainerCol>
+
       <ContainerCol className="sidebardiv">
         <div
           className="sidebartitle"
-          onClick={() => navigate("/FirelessCooker")}
-        >
-          {" "}
-          Fireless Cooker
-        </div>
-      </ContainerCol>
-      <ContainerCol className="sidebardiv">
-        <div
-          className="sidebartitle"
-          onClick={() => navigate("/FuelSavingStove")}
-        >
-          {" "}
-          Fuel Saving Stove{" "}
-        </div>
-      </ContainerCol>
-      <ContainerCol className="sidebardiv">
-        <div
-          className="sidebartitle"     
             onClick={() => {
             navigate("/SolarCooker");
             setSolarCookerOpen(!SolarCookerOpen);
-       	     console.log(SolarCookerOpen);
+             console.log(SolarCookerOpen);
           }}
         >
           {" "}
-          Solar Cooking
+          Solar Cooker
         </div>
         {window.location.href.includes("/SolarCooker") === true ? (
           <>
@@ -75,6 +57,27 @@ export default function SidebarMenu() {
         )}
       </ContainerCol>
 
+      <ContainerCol className="sidebardiv">
+        <div
+          className="sidebartitle"
+          onClick={() => navigate("/FirelessCooker")}
+        >
+          {" "}
+          Fireless Cooker
+        </div>
+      </ContainerCol>
+      <ContainerCol className="sidebardiv">
+        <div
+          className="sidebartitle"
+          onClick={() => navigate("/FuelSavingStove")}
+        >
+          {" "}
+          Fuel Saving Stove{" "}
+        </div>
+      </ContainerCol>
+
+
+
        <ContainerCol className="sidebardiv"> 
       <div
           className="sidebartitle"
@@ -93,9 +96,10 @@ export default function SidebarMenu() {
 	className="sidebartitle"   
 	onClick={() => navigate("/WhereToBuy")}
 	>
- 	Map of ISC Venors
+ 	Map of ISC Vendors in Kenya
       </div>
 	</ContainerCol>
+
         <ContainerCol className="sidebardiv">
 	<div
 	className="sidebartitle"
@@ -106,10 +110,19 @@ export default function SidebarMenu() {
             </div>
 	</ContainerCol>
 
+      <ContainerCol className="sidebardiv">
+        <div
+        className="sidebartitle"
+        onClick={() => navigate("/Economy")}
+        >
+        Is the cooker expensive?
+      </div>
+        </ContainerCol>
+
 	<ContainerCol className="sidebardiv">
         <div className="sidebartitle" 
-	onClick={() => navigate("/Contact")}>
-          Contact
+	onClick={() => navigate("/MeetUsers")}>
+          Meet the Users
         </div>
       </ContainerCol>
 

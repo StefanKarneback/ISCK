@@ -68,7 +68,6 @@ function LandingScreen(props) {
             <span>Read more</span>
           </button>{" "}
           <br />
-          <br />
           <b style={{ fontSize: "20px" }}>
             If you sell equipment for integrated solar cooking and want your
             products to be seen on this web site send an e-mail to  stefan.karneback@ewb-swe.org.
@@ -91,7 +90,7 @@ function LandingScreen(props) {
                   alt="logo"
                   style={{ height: "5em", paddingTop: "0em" }}
                 />{" "} <br />
-               
+               Last updated Spetember 15  2023
         </div>{" "}
       </ContainerCol>
     </>

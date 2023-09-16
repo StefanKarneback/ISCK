@@ -14,8 +14,8 @@
     "Entrepreneur": "Samuel Odhiambo",
     "Organisation": "Asulma Center",
     "Enterprise": "",
-    "PhoneNo": "",
-    "Address": [""],
+    "PhoneNo": "+254726927913",
+    "Address": ["asulmacentre@yahoo.com"],
     "Location": "Kariobangi, Nairobi",
     "MoreInfo": "We sell box cookers, Haines cookers, conical cookers\n fuel saving stoves, briquettes etc. \n We also train new entrepreneurs."
   },
@@ -24,36 +24,65 @@
     "Organisation": "Tonembee",
     "Enterprise": "",
     "PhoneNo": "",
-    "Address": [""],
-    "Location": "Kithuia, Machakos",
+    "Address": ["Kivaa Location"],
+    "Location": "Kithuia Village, Machakos",
     "MoreInfo": "Selling panel cookers, like Haines cooker and fireless cookers."
   },
 {
     "Entrepreneur": "Robert Nguma",
     "Organisation": "",
     "Enterprise": "Athel Technology",
-    "PhoneNo": "",
-    "Address": [""],
+    "PhoneNo": ": 0724221766 ",
+    "Address": [" info@atheltechnology.co.ke or robert@atheltechnology.co.ke."],
     "Location": "Mombasa",
     "MoreInfo": "PV-driven induction ovens."
 },
-  {
-    "Entrepreneur": "Elisha Ochieng",
-    "Organisation": "",
-    "Enterprise": "",
-    "PhoneNo": "",
-    "Address": [""],
-    "Location": "Kithuia, Machakos",
-    "MoreInfo": "Selling panel cookers, like Haines cooker and fireless cookers."
-  },
 {
-    "Entrepreneur": "Thermofield Industrial",
-    "Organisation": "",
+    "Entrepreneur": "Elisha Ochieng",
+    "Organisation": "Winam jua CBO",
     "Enterprise": "",
-    "PhoneNo": "",
-    "Address": [""],
-    "Location": "Mombasa",
-    "MoreInfo": "PV-driven induction ovens."
+    "PhoneNo": "0708 832 589",
+    "Address": ["P.O.Box 873-4100 Mega City- Kisumu - Kenya"],
+    "Location": "Kisumu",
+    "MoreInfo": "Solar Cookers and Fireless Baskets."
+},
+{
+    "Entrepreneur": "Charles Oloo",
+    "Organisation": "",
+    "Enterprise": "Thermofield Industrial",
+    "PhoneNo": "0721 727 830 or 0735 751 382",
+    "Address": ["Karen/Oloishobor (20km beyond Ngong)"],
+    "Location": "Nairobi",
+    "MoreInfo": "Scheffler reflcetor and ovens, for indoor cooking."
+},
+{
+    "Entrepreneur": "Joan Arwa",
+    "Organisation": "",
+    "Enterprise": "Solarfire",
+    "PhoneNo": "023 444388",
+    "Address": ["joan.arwa@Solarfire.io"],
+    "Location": "Nairobi",
+    "MoreInfo": "Solarfire has a demonstration site in Kisum where they demonstrate Lytefire, a solar concentrator with oven for baking and cooking."
+},
+{
+    "Entrepreneur": "Odhiambo Innocent Franko",
+    "Organisation": "Asante Self Help Group",
+    "Enterprise": "",
+    "PhoneNo": " +254741318213 or +254724472472",
+    "Address": ["ISC shop is located at Mayenje, Busia"],
+    "Location": "Mayenje, Busia",
+    "MoreInfo": ""
+},
+{
+    "Entrepreneur": "Sarah Ndunyo",
+    "Organisation": "Shambani Millers Self Help Group",
+    "Enterprise": "",
+    "PhoneNo": "+254 114000564" ,
+    "Address": ["sarahndunyo@gmail.com"],
+    "Location": "Close to Primary School in Mwingi East Kitui",
+    "MoreInfo": "Conical Cookers, Box Cookers, Haines Cookers, Fireless Cookers and Fuel Saving Stoves"
 }
+
+
 
 ]

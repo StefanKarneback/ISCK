@@ -5,25 +5,18 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import data from "../data/Products.json";
-import Prod1 from "../images/prod1.png";
-import Prod2 from "../images/prod2.jpeg";
-import Prod3 from "../images/q2.png";
+//import data from "../data/Products.json";
+//import Prod1 from "../images/prod1.png";
+//import Prod2 from "../images/prod2.jpeg";
+//import Prod3 from "../images/q2.png";
 import { useNavigate } from "react-router-dom";
 //const navigate = useNavigate();
 
 function WhereToBuy(props) {
-  function PrintImage(props) {
-    if (props.name === 0) {
-      return <Card.Img variant="top" src={Prod1} />;
-    } else if (props.name === 1) {
-      return <Card.Img variant="top" src={Prod2} />;
-    } else if (props.name === 2) {
-      return <Card.Img variant="top" src={Prod3} />;
-    }
-  }  return (
-    <>
-      <GlobalStyle />
+  return (
+    <>      
+
+<GlobalStyle />
       {props.isOpen ? <SidebarMenu /> : <></>}
 
       <ContainerCol className="landingDiv">
@@ -68,9 +61,6 @@ function WhereToBuy(props) {
               </div>
             </div>
 	</div>
-        <div style={{ textAlign: "center" }}>
-            <h3 id="VendorList">List of Vendors in Kenya</h3>
-        </div>
    </ContainerCol>  
    </>
   );

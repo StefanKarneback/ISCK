@@ -48,22 +48,20 @@ function CreateTable() {
     <div style={{ padding: "2.5em", width: "100%" }}>
       <Table striped>
         <thead>
-          <tr>
-            <th></th>
-            <th>Entrepreneur</th>
+	<th> </th>
+	    <th>Entrepreneur</th>
             <th>Organisation</th>
             <th>Enterprise</th>
             <th>Phone No.</th>
             <th>Address</th>
             <th>Location</th>
             <th>More Info</th>
-          </tr>
         </thead>
         <tbody>
           {data.map((item, idx) => {
             return (
-              <tr>
-                <td>{idx}</td>
+		<tr>
+		<td>{idx+1} </td>
                 <td>{item.Entrepreneur}</td>
                 <td>{item.Organisation}</td>
                 <td>{item.Enterprise}</td>
@@ -75,7 +73,7 @@ function CreateTable() {
                     Click here
                   </button>
                 </td>
-              </tr>
+		</tr>
             );
           })}
         </tbody>

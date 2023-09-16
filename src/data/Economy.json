@@ -1,0 +1,35 @@
+
+
+[
+  {
+    "Fuel" : "Consumption per meal",
+    "Charcoal": "    ",
+    "Kerosine": "    ",
+    "Gas": "     ",
+    "Wood":"      "
+  },
+  { 
+    "Fuel" : "Cost per unit",
+    "Charcoal": "   ",
+    "Kerosine": "   ",
+    "Gas": "    ",
+    "Wood":"      "
+},
+  { 
+    "Fuel" : "With solar cooker you save  per meal",
+    "Charcoal": "   ",
+    "Kerosine": "   ",
+    "Gas": "    ",
+    "Wood":"    "
+},
+  { 
+    "Fuel" : "After 15 meals (one month) you have saved",
+    "Charcoal": "  ",
+    "Kerosine": "  ",
+    "Gas": "   ",
+    "Wood":"       "
+}
+
+
+
+]
