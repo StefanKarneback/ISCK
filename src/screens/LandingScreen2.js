@@ -90,7 +90,7 @@ function LandingScreen(props) {
                   alt="logo"
                   style={{ height: "5em", paddingTop: "0em" }}
                 />{" "} <br />
-               Last updated Spetember 15  2023
+               Last updated Spetember 16  2023
         </div>{" "}
       </ContainerCol>
     </>
